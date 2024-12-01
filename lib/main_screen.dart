@@ -51,8 +51,7 @@ class _MainScreenState extends State<MainScreen> {
         ),
       ),
       child: Stack(
-        children: [
-          
+        children: [ 
           Positioned(
             bottom: 30,
             child: Opacity(
@@ -60,10 +59,10 @@ class _MainScreenState extends State<MainScreen> {
               child: Image.asset('assets/MainBlur.png'),
             ),
           ),
-          
           Center(
             child: Column(
               children: [
+                const SizedBox(height: 50),
                 Image.asset('assets/WinkEmoji.png', width: 200, height: 160),
                 JokeDisplayBox(joke: joke),
                 const SizedBox(height: 50),

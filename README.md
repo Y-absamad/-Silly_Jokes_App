@@ -16,3 +16,7 @@ A single-page Flutter application that displays silly jokes stored in a text fil
 - Add animations to joke transitions.
 - Allow users to add their own jokes.
 - Provide sharing options for favorite jokes.
+
+
+## Video
+![](video1.gif)
