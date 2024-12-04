@@ -1,14 +1,13 @@
 # Silly Jokes App 🎭
-A single-page Flutter application that displays silly jokes stored in a text file. The app ensures no joke is repeated until all jokes from the file have been shown, after which the jokes reset and repeat randomly.
+A single-page Flutter application that displays silly jokes. 
 
 ## Features ✨
-- Displays jokes from a text file (**Jokes.txt**) in a beautifully styled container.
-- Display jokes randomly.
-- Jokes are fetched randomly from a preloaded list, ensuring: Each joke is shown only once per cycle.
+- Displays pre-written jokes stored in a text file (**Jokes.txt**).
+- Jokes are in Arabic and displayed randomly.
+- Each joke appears only once per cycle, then the cycle resets randomly.
 - After all jokes are displayed, the cycle resets, and jokes are shown randomly again.
-- Automatically resets jokes after all have been displayed.
-- Provides a seamless and dynamic user experience.
-- Users can click a button to copy the joke.
+- Beautiful and smooth design for a seamless user experience.
+- Users can easily copy a joke by clicking on the dedicated copy icon.
 
 
 ## Future Enhancements 🔮
